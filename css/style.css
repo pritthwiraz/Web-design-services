@@ -33,15 +33,69 @@ header{
 }
 .main nav li {
     list-style-type: none;
+	padding: 0 15px 0 15px;
 }
 .main nav a {
-    color:#ffffff;
+    color: azure;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 16px;
-	padding: 0 20px 0 20px;
+	padding: 5px;
+	
 }
 .main nav a:hover{
     color:aquamarine;
-    font-weight: bold;
+    /* font-weight: bold; */
+	border: 2px solid aqua;
+	border-radius: 5px;
+	/* padding: 5px; */
+}
+.hero{
+	min-height: 400px;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/Abstract\ Image.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+
+}
+.hero h1{
+	font-size: 50px;
+	color: rgb(252, 252, 252);
+
+}
+.hero p{
+	font-size: 25px;
+	color: aliceblue;
+}
+.newsletter{
+	background-color: #35424A;
+	padding: 10px;
+	color: #E8491D;
+}
+.submit{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.submit h1{
+	color: rgb(190, 214, 221);
+}
+.submit form input[type="email"]{
+	padding: 4px;
+	height: 28px;
+	width: 250px;
+	border:none;
+	border-radius: 10px;
+}
+.submit form #btn{
+	height: 39px;
+	background: #E8491D;
+	border:none;
+	padding-left: 25px;
+	padding-right: 20px;
+	border-radius: 10px;
 }
